@@ -1,0 +1,143 @@
+cv:
+  name: Brian Xu
+  location: Providence, RI
+  email: brian@brian-xu.com
+  website: https://brian-xu.com/
+  social_networks:
+    - network: LinkedIn
+      username: brian-s-xu
+    - network: GitHub
+      username: brian-xu
+  sections:
+    education:
+      - institution: Brown University
+        area: Computer Science
+        degree: MSc
+        start_date: 2024-09
+        end_date: 2026-05
+        highlights:
+          - "**Coursework:** Seminar in Computer Vision for Graphics and Interaction"
+      - institution: University of California, Irvine
+        area: Computer Science
+        degree: BS
+        start_date: 2019-09
+        end_date: 2022-12
+        highlights:
+          - "GPA: 3.88/4.0"
+          - "**Coursework:** Machine Learning and Data Mining, Introduction to 
+          Probabilistic Graphical Models, Introduction to Optimization, 
+          Computational Photography and Vision, Project in Computer Vision"
+    research_experience:
+      - company: Brown University
+        position: Graduate Student Researcher
+        start_date: 2024-09
+        end_date: present
+        highlights:
+          - Conducting research on 3D reconstruction methods in low-light environments.
+    experience:
+      - company: Meta Platforms, Inc.
+        position: Software Engineer Intern
+        location: Burlingame, CA
+        start_date: 2022-06
+        end_date: 2022-09
+        highlights:
+          - Improved the speed and scalability of a data annotation pipeline.
+          - Increased annotation speed by integrating computer vision models for machine-assisted annotations.
+          - Reducing data footprint by over 80% through efficient caching.
+          - Redesigned database to better integrate with internal data visualization tools.
+      - company: Amazon.com, Inc.
+        position: Graduate Student Researcher
+        location: Seattle, WA
+        start_date: 2021-06
+        end_date: 2021-09
+        highlights:
+          - Created a progressive web app to handle the user registration process.
+          - Implemented ML/CV models to process information from user-uploaded images.
+          - Designed a robust and scalable backend with the Spring Framework.
+          - Created and deployed server endpoints to handle sensitive user information.
+    projects:
+      - name: "HyP-NeRF: Learning Improved NeRF Priors using a HyperNetwork"
+        date: "[brian-xu/HyP-NeRF](https://github.com/brian-xu/HyP-NeRF)"
+        highlights:
+          - "Partial implementation of a research paper, building on the author’s reference implementation."
+          - Original contributions include extending the model to generate NeRF models conditioned on input text and images through usage of CLIP embeddings.
+      - name: "Inverse Graphics GAN: Learning to Generate 3D Shapes from Unstructured 2D Data"
+        date: "[brian-xu/IGGAN](https://github.com/brian-xu/IGGAN)"
+        highlights:
+          - Implemented and trained a neural network that learns a distrubution of 3D models from 2D images, based on a research paper.
+          - Built an efficient data pipeline to enable model training.
+    leadership_and_membership:
+      - company: Visual Computing @ Brown
+        position: Software Engineer Intern
+        start_date: 2024-09
+        end_date: present
+        highlights:
+          - Attended NECV2024 @ Yale University
+      - company: Artificial Intelligence @ UCI
+        position: Student Mentor
+        start_date: 2020-03
+        end_date: 2021-06
+        highlights:
+          - Organized and planned quarterly meetings.
+          - Designed and taught machine learning workshops to students.
+          - Led club presentation for university hackathon and judged student projects.
+    workshops_and_presentations:
+      - name: "RenderNet: 3D Voxel Rendering with Deep Convolutional Networks"
+        date: 2021-04
+        highlights:
+          - Artificial Intelligence @ UCI
+      - name: "HackUCI - Supervised Learning with Online Datasets"
+        date: 2021-01
+        highlights:
+          - HackUCI 2021
+      - name: "PIFuHD: Image-Based 3D Human Shape Estimation"
+        date: 2021-01
+        highlights:
+          - Artificial Intelligence @ UCI
+      - name: "Fundamental Machine Learning / Data Science Tools"
+        date: 2020-11
+        highlights:
+          - Artificial Intelligence @ UCI
+      - name: "BERT: Bidirectional NLP with Transformers"
+        date: 2020-05
+        highlights:
+          - Artificial Intelligence @ UCI
+design:
+  theme: classic
+  font: Times New Roman
+  font_size: 10pt
+  page_size: letterpaper
+  color: "#000000"
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ""
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience
