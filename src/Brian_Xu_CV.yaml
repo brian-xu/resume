@@ -104,7 +104,7 @@ cv:
           - Artificial Intelligence @ UCI
 design:
   theme: classic
-  font: Times New Roman
+  font: Charter
   font_size: 10pt
   page_size: letterpaper
   color: "#000000"
