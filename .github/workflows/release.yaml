@@ -23,10 +23,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: RenderCV Output
-          path: rendercv_output
-      - name: Move PDFs
-        run: mv rendercv_output/*.pdf dist
-        shell: bash
+          path: dist
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
         with:
