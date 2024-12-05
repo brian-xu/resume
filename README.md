@@ -86,7 +86,7 @@ Picture this:
 ## Inverse Graphics GAN: Learning to Generate 3D Shapes from Unstructured 2D Data
 
 - [brian-xu/IGGAN](https://github.com/brian-xu/IGGAN)
-- Implemented and trained a neural network that learns a distrubution of 3D models from 2D images, based on a research paper.
+- Implemented and trained a neural network that learns a distribution of 3D models from 2D images, based on a research paper.
 - Built an efficient data pipeline to enable model training.
 
 # Leadership and Membership
