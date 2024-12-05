@@ -26,83 +26,107 @@ Picture this:
 -  Edit and preview your CV in your browser without installing anything by creating a codespace. Click the <> **Code** button, then click the **Codespaces** tab, and then click **Create codespace on main**. The environment will be ready for RenderCV usage. Update `.vscode/launch.json` to point to your YAML file and press `F5` to run RenderCV in the browser.
 
 <!-- Remove above in src/markdown/Header.j2.md not in README.md -->
-# John Doe's CV
+# Brian Xu's CV
 
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Email: [brian@brian-xu.com](mailto:brian@brian-xu.com)
+- Location: Providence, RI
+- Website: [brian-xu.com](https://brian-xu.com/)
+- LinkedIn: [brian-s-xu](https://linkedin.com/in/brian-s-xu)
+- GitHub: [brian-xu](https://github.com/brian-xu)
 
 
-# Welcome to RenderCV!
-
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
-
-The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-
-# Quick Guide
-
-- Each section title is arbitrary and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Select a section title, pick an entry type, and start writing your section!
-- [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
 # Education
 
-## University of Pennsylvania, BS in Computer Science
+## Brown University, MSc in Computer Science
 
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([Transcript](https://example.com))
-- **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+- Sept 2024 – May 2026
+- **Coursework:** Seminar in Computer Vision for Graphics and Interaction
+
+## University of California, Irvine, BS in Computer Science
+
+- Sept 2019 – Dec 2022
+- GPA: 3.88/4.0
+- **Coursework:** Machine Learning and Data Mining, Introduction to Probabilistic Graphical Models, Introduction to Optimization, Computational Photography and Vision, Project in Computer Vision
+
+# Research Experience
+
+## Brown University, Graduate Student Researcher
+
+- Sept 2024 – present
+- Conducting research on 3D reconstruction methods in low-light environments.
 
 # Experience
 
-## Apple, Software Engineer
+## Meta Platforms, Inc., Software Engineer Intern
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- June 2022 – Sept 2022
+- Burlingame, CA
+- Improved the speed and scalability of a data annotation pipeline.
+- Increased annotation speed by integrating computer vision models for machine-assisted annotations.
+- Reducing data footprint by over 80% through efficient caching.
+- Redesigned database to better integrate with internal data visualization tools.
 
-## Microsoft, Software Engineer Intern
+## Amazon.com, Inc., Graduate Student Researcher
 
-- June 2003 – Aug 2003
-- Redmond, WA
-- Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-- Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
-
-# Publications
-
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
+- June 2021 – Sept 2021
+- Seattle, WA
+- Created a progressive web app to handle the user registration process.
+- Implemented ML/CV models to process information from user-uploaded images.
+- Designed a robust and scalable backend with the Spring Framework.
+- Created and deployed server endpoints to handle sensitive user information.
 
 # Projects
 
-## Multi-User Drawing Tool
+## HyP-NeRF: Learning Improved NeRF Priors using a HyperNetwork
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+- [brian-xu/HyP-NeRF](https://github.com/brian-xu/HyP-NeRF)
+- Partial implementation of a research paper, building on the author’s reference implementation.
+- Original contributions include extending the model to generate NeRF models conditioned on input text and images through usage of CLIP embeddings.
 
-## Synchronized Desktop Calendar
+## Inverse Graphics GAN: Learning to Generate 3D Shapes from Unstructured 2D Data
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+- [brian-xu/IGGAN](https://github.com/brian-xu/IGGAN)
+- Implemented and trained a neural network that learns a distrubution of 3D models from 2D images, based on a research paper.
+- Built an efficient data pipeline to enable model training.
 
-## Custom Operating System
+# Leadership and Membership
 
-- 2002
-- Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
+## Visual Computing @ Brown, Software Engineer Intern
 
-# Technologies
+- Sept 2024 – present
+- Attended NECV2024 @ Yale University
 
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Technologies: .NET, Microsoft SQL Server, XCode, Interface Builder
+## Artificial Intelligence @ UCI, Student Mentor
+
+- Mar 2020 – June 2021
+- Organized and planned quarterly meetings.
+- Designed and taught machine learning workshops to students.
+- Led club presentation for university hackathon and judged student projects.
+
+# Workshops and Presentations
+
+## RenderNet: 3D Voxel Rendering with Deep Convolutional Networks
+
+- Apr 2021
+- Artificial Intelligence @ UCI
+
+## HackUCI - Supervised Learning with Online Datasets
+
+- Jan 2021
+- HackUCI 2021
+
+## PIFuHD: Image-Based 3D Human Shape Estimation
+
+- Jan 2021
+- Artificial Intelligence @ UCI
+
+## Fundamental Machine Learning / Data Science Tools
+
+- Nov 2020
+- Artificial Intelligence @ UCI
+
+## BERT: Bidirectional NLP with Transformers
+
+- May 2020
+- Artificial Intelligence @ UCI
+
