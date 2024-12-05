@@ -59,16 +59,16 @@ cv:
       - name: "HyP-NeRF: Learning Improved NeRF Priors using a HyperNetwork"
         date: "[brian-xu/HyP-NeRF](https://github.com/brian-xu/HyP-NeRF)"
         highlights:
-          - "Partial implementation of a research paper, building on the author’s reference implementation."
-          - Original contributions include extending the model to generate NeRF models conditioned on input text and images through usage of CLIP embeddings.
+          - "Partial implementation of a research paper, building on the author’s released work."
+          - Code contributions include conditioning the model to generate NeRFs from text and images via CLIP embeddings.
       - name: "Inverse Graphics GAN: Learning to Generate 3D Shapes from Unstructured 2D Data"
         date: "[brian-xu/IGGAN](https://github.com/brian-xu/IGGAN)"
         highlights:
-          - Implemented and trained a neural network that learns a distribution of 3D models from 2D images, based on a research paper.
+          - Implemented and trained a neural network that learns a distribution of 3D models from 2D images.
           - Built an efficient data pipeline to enable model training.
     leadership_and_membership:
-      - company: Visual Computing @ Brown
-        position: Software Engineer Intern
+      - company: Brown Visual Computing
+        position: "[visual.cs.brown.edu](https://visual.cs.brown.edu)"
         start_date: 2024-09
         end_date: present
         highlights:
@@ -111,7 +111,7 @@ design:
   disable_external_link_icons: false
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
+  disable_last_updated_date: true
   last_updated_date_style: Last updated in TODAY
   header_font_size: 30 pt
   text_alignment: justified
