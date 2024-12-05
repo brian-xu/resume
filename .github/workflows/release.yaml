@@ -2,12 +2,12 @@ name: Release a CV
 
 on:
   push:
-    tags:
-      - "*" # Any tag pushed to the repository
-      
+    branches:
+      - main
+
 permissions:
   contents: write
-  
+
 jobs:
   call_rendercv_workflow:
     name: RenderCV
@@ -24,11 +24,14 @@ jobs:
         with:
           name: RenderCV Output
           path: rendercv_output
-      - name: Release
-        uses: softprops/action-gh-release@v2
+      - name: Move PDFs
+        run: mv rendercv_output/*.pdf dist
+        shell: bash
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.8.0
         with:
-          files: |
-            rendercv_output/*_CV.pdf
-            rendercv_output/*_CV.tex
-          generate_release_notes: true
-          make_latest: true
+          deploy_key: ${{ secrets.PAGES_SECRET }}
+          publish_dir: dist
+          allow_empty_commit: true
+          force_orphan: true
+          enable_jekyll: true
