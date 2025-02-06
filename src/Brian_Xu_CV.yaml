@@ -19,7 +19,7 @@ cv:
           - "**Coursework:** Seminar in Computer Vision for Graphics and Interaction"
       - institution: University of California, Irvine
         area: Computer Science
-        degree: BS
+        degree: BSc
         start_date: 2019-09
         end_date: 2022-12
         highlights:
@@ -46,7 +46,7 @@ cv:
           - Reducing data footprint by over 80% through efficient caching.
           - Redesigned database to better integrate with internal data visualization tools.
       - company: Amazon.com, Inc.
-        position: Graduate Student Researcher
+        position: Software Engineer Intern
         location: Seattle, WA
         start_date: 2021-06
         end_date: 2021-09
@@ -56,6 +56,12 @@ cv:
           - Designed a robust and scalable backend with the Spring Framework.
           - Created and deployed server endpoints to handle sensitive user information.
     projects:
+      - name: "Scaffold-GS Nerfstudio Extension"
+        date: "[brian-xu/scaffold-gs-nerfstudio](https://github.com/brian-xu/scaffold-gs-nerfstudio)"
+        highlights:
+          - Implementation of Scaffold-GS as a nerfstudio extension.
+          - Enabled interaction and reproducibility through the nerfstudio framework.
+          - Implementation of follow-up paper GSDF leverages a dual-branch architecture to increase reconstruction accuracy and export meshes.
       - name: "HyP-NeRF: Learning Improved NeRF Priors using a HyperNetwork"
         date: "[brian-xu/HyP-NeRF](https://github.com/brian-xu/HyP-NeRF)"
         highlights:
@@ -82,6 +88,10 @@ cv:
           - Designed and taught machine learning workshops to students.
           - Led club presentation for university hackathon and judged student projects.
     workshops_and_presentations:
+      - name: "Dark Scene Reconstruction Survey"
+        date: 2024-11
+        highlights:
+          - Brown Visual Computing
       - name: "RenderNet: 3D Voxel Rendering with Deep Convolutional Networks"
         date: 2021-04
         highlights:
